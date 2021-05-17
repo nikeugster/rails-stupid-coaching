@@ -1,0 +1,68 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+$grey: #DDDDDD;
+$yellow: #FFFEE0;
+$blue: #3379B7;
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+blockquote {
+  border-left: solid;
+  border-color: $grey;
+  border-width: 5px;
+  margin-left: 0px;
+  .you {
+    background-color: white;
+    padding: 8px 8px 4px 24px;
+  }
+  .coach {
+    background-color: $yellow;
+    padding: 8px 8px 4px 24px;
+  }
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+.textfield {
+  padding: 10px;
+  border-width: 1px;
+  border-color: $grey;
+  border-radius: 4px 0px 0px 4px;
+  box-shadow: none;
+}
+
+.textfield:focus {
+
+}
+
+.button {
+  padding: 10px;
+  background-color: $blue;
+  color: white;
+  border-width: 1px;
+  border-color: $grey;
+  border-radius: 0px 4px 4px 0px;
+  box-shadow: none;
+}
